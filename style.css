@@ -17,16 +17,14 @@ main {
   flex-direction: column;
   background-color: hsl(244, 38%, 16%);
   border-radius: 8px;
-  flex-basis: 330px;
 }
 .card-image {
   background-image: url(images/image-header-mobile.jpg);
-  background-color: hsl(277, 64%, 61%);
+  background-color: hsl(277, 64%, 61%, 1);
   background-blend-mode: multiply;
   border-radius: 8px 8px 0 0;
-  flex-basis: 330px;
+  flex-basis: 240px;
   flex-shrink: 0;
-  /* max-width: 330px; */
   min-height: 240px;
   background-size: cover;
   margin: 0;
