@@ -9,6 +9,9 @@ body {
   place-items: center;
   color: hsl(0, 0%, 100%);
 }
+main {
+  margin: 88px 0;
+}
 .card {
   display: flex;
   flex-direction: column;
@@ -29,12 +32,12 @@ body {
   padding: 35px;
   text-align: center;
 }
-.card-body header {
+.card-body h1 {
   font-weight: bold;
   font-size: 28px;
   margin: 9px 0;
 }
-.card-body header span {
+.card-body h1 span {
   color:hsl(277, 64%, 61%);
 }
 .card p {
@@ -60,15 +63,18 @@ body {
 }
 .attribution {
   position: relative;
-  margin: 20px 0;
+  padding-bottom: 20px;
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(277, 64%, 61%);
 }
 
-@media screen and (min-width: 1080px) {
+@media print, screen and (min-width: 1080px) {
+  main {
+    margin: 0;
+  }
   .card {
     flex-direction: row-reverse;
     width: 1110px;
@@ -86,7 +92,7 @@ body {
     text-align: left;
     margin-right: 50px;
   }
-  .card-body header {
+  .card-body h1 {
     font-size: 35px;
   }
   .card-body p {

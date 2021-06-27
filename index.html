@@ -21,38 +21,48 @@
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body>
-    <article class="card">
-      <figure class="card-image"></figure>
-      
-      <section class="card-body">
-        <header>
-          Get
-          <span>insights</span>
-          that help your business grow.
-        </header>
-        <p>
-          Discover the benefits of data analytics and make better decisions
-          regarding revenue, customer experience, and overall efficiency.
-        </p>
-  
-        <section class="stat">
-          <div>
-            <span>10k+</span> companies
-          </div>
-          <div>
-            <span>314</span> templates
-          </div>
-          <div>
-            <span>12M+</span> queries
-          </div>
+    <main>
+      <article class="card">
+        <figure class="card-image"></figure>
+
+        <section class="card-body">
+          <h1>
+            Get
+            <span>insights</span>
+            that help your business grow.
+          </h1>
+          <p>
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+
+          <section class="stat">
+            <div><span>10k+</span> companies</div>
+            <div><span>314</span> templates</div>
+            <div><span>12M+</span> queries</div>
+          </section>
         </section>
-      </section>
-    </article>
+      </article>
+    </main>
     <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Saptarshi</a>.
+      >. Coded by <a href="https://github.com/sapgit97" target="_blank">Saptarshi</a>.
     </footer>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-99709135-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-99709135-1");
+    </script>
   </body>
 </html>
