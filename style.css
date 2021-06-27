@@ -33,12 +33,12 @@ main {
   padding: 35px;
   text-align: center;
 }
-.card-body h1 {
+.card-body h2 {
   font-weight: bold;
   font-size: 1.6em;
   margin: 9px 0;
 }
-.card-body h1 span {
+.card-body h2 span {
   color: hsl(277, 64%, 61%);
 }
 .card-body p {
@@ -98,7 +98,7 @@ main {
     padding: 70px 76px;
     text-align: left;
   }
-  .card-body h1 {
+  .card-body h2 {
     font-size: 2.31em;
   }
   .card-body p {
