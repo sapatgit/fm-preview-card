@@ -20,8 +20,8 @@ main {
   width: 330px;
 }
 .card-image {
-  background: linear-gradient(hsla(277, 64%, 61%, 0.55),
-    hsla(277, 29%, 46%, 0.55)), url(images/image-header-mobile.jpg);
+  background: linear-gradient(hsla(277, 64%, 61%, 1),
+    hsla(277, 64%, 61%, 1)), url(images/image-header-mobile.jpg);
   border-radius: 8px 8px 0 0;
   width: 330px;
   height: 240px;
